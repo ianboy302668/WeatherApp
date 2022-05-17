@@ -23,7 +23,7 @@ d. 系統特色
  
   藉由爬取政府提供的 API，我們能夠得知更加即時的天氣狀況資料，其中我們可以從當下天氣和最低最高溫度得知該如何給予使用者穿搭層面的建議。
 
-##使用教學
+## 使用教學
 * 穿衣建議
   1.首頁點選 _穿搭建議_ 鈕
   ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice-guide.png)
