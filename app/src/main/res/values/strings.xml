@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="choose">選 擇 衣 服</string>
+    <string name="top">上身</string>
+    <string name="top1">短袖上衣</string>
+    <string name="top2">長袖上衣</string>
+    <string name="top3">短洋裝</string>
+    <string name="top4">長洋裝</string>
+    <string name="top5">帽T</string>
+    <string name="top6">長袖襯衫</string>
+    <string name="top7">長袖毛衣</string>
+    <string name="top8" >高領毛衣</string>
+    <string name="top9">薄外套</string>
+    <string name="top10">厚外套</string>
+    <string name="top11">背心</string>
+
+
+    <string name="bottom">下身</string>
+    <string name="bottom1">長褲</string>
+    <string name="bottom2">短褲</string>
+    <string name="bottom3">長裙</string>
+    <string name="bottom4">短裙</string>
+
+    <string name="acc">配件</string>
+    <string name="acc1">帽子</string>
+    <string name="acc2">手套</string>
+    <string name="acc3">圍巾</string>
+
+
+    <string name="advice">穿 搭 建 議</string>
+    <string name="diary">穿 搭 日 記</string>
+    <string name="create">新 增 照 片</string>
+
+    <string-array name="biglocate">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+        <item>宜蘭縣</item>
+        <item>臺中市</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>高雄市</item>
+        <item>臺南市</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>屏東縣</item>
+        <item>澎湖縣</item>
+        <item>花蓮縣</item>
+        <item>臺東縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+
+    <string-array name="locate1">
+        <item>中正區</item>
+        <item>北投區</item>
+        <item>南港區</item>
+        <item>大安區</item>
+        <item>文山區</item>
+    </string-array>
+
+    <string-array name="locate2">
+        <item>三重區</item>
+        <item>土城區</item>
+        <item>新店區</item>
+        <item>板橋區</item>
+        <item>樹林區</item>
+        <item>汐止區</item>
+        <item>淡水區</item>
+        <item>鶯歌區</item>
+    </string-array>
+
+    <string-array name="locate3">
+        <item>七堵區</item>
+        <item>中山區</item>
+        <item>中正區</item>
+        <item>仁愛區</item>
+        <item>安樂區</item>
+    </string-array>
+
+    <string-array name="locate4">
+        <item>東區</item>
+    </string-array>
+
+    <string-array name="locate5">
+        <item>大溪區</item>
+        <item>新屋區</item>
+        <item>桃園區</item>
+        <item>楊梅區</item>
+    </string-array>
+
+    <string-array name="locate6">
+        <item>寶山鄉</item>
+        <item>湖口鄉</item>
+        <item>竹北市</item>
+        <item>關西鎮</item>
+    </string-array>
+
+    <string-array name="locate7">
+        <item>宜蘭市</item>
+        <item>蘇澳鎮</item>
+    </string-array>
+
+    <string-array name="locate8">
+        <item>北區</item>
+        <item>后里區</item>
+        <item>和平區</item>
+        <item>大肚區</item>
+        <item>梧棲區</item>
+        <item>沙鹿區</item>
+        <item>清水區</item>
+        <item>神岡區</item>
+        <item>西屯區</item>
+        <item>霧峰區</item>
+    </string-array>
+
+    <string-array name="locate9">
+        <item>三義鄉</item>
+        <item>公館鄉</item>
+        <item>竹南鎮</item>
+        <item>苑裡鎮</item>
+        <item>通霄鎮</item>
+        <item>銅鑼鄉</item>
+        <item>頭份市</item>
+        <item>頭屋鄉</item>
+    </string-array>
+
+    <string-array name="locate10">
+        <item>和美鎮</item>
+        <item>大村鄉</item>
+        <item>彰化市</item>
+        <item>田中鎮</item>
+    </string-array>
+
+    <string-array name="locate11">
+        <item>信義鄉</item>
+        <item>草屯鎮</item>
+        <item>魚池鄉</item>
+    </string-array>
+
+    <string-array name="locate12">
+        <item>古坑鄉</item>
+        <item>林內鄉</item>
+        <item>西螺鎮</item>
+        <item>麥寮鄉</item>
+    </string-array>
+
+    <string-array name="locate13">
+        <item>仁武區</item>
+        <item>前鎮區</item>
+        <item>大樹區</item>
+        <item>岡山區</item>
+        <item>橋頭區</item>
+        <item>田寮區</item>
+        <item>路竹區</item>
+    </string-array>
+
+    <string-array name="locate14">
+        <item>中西區</item>
+        <item>仁德區</item>
+        <item>善化區</item>
+        <item>官田區</item>
+        <item>新市區</item>
+        <item>新營區</item>
+        <item>永康區</item>
+        <item>白河區</item>
+        <item>關廟區</item>
+        <item>麻豆區</item>
+    </string-array>
+
+    <string-array name="locate15">
+        <item>東區</item>
+        <item>仁德區</item>
+    </string-array>
+
+    <string-array name="locate16">
+        <item>中埔鄉</item>
+        <item>大林鎮</item>
+        <item>民雄鄉</item>
+        <item>水上鄉</item>
+        <item>阿里山鄉</item>
+    </string-array>
+
+    <string-array name="locate17">
+        <item>南州鄉</item>
+        <item>恆春鎮</item>
+        <item>竹田鄉</item>
+    </string-array>
+
+
+    <string-array name="locate18">
+        <item>望安鄉</item>
+        <item>白沙鄉</item>
+        <item>馬公市</item>
+    </string-array>
+
+    <string-array name="locate19">
+        <item>秀林鄉</item>
+        <item>花蓮市</item>
+    </string-array>
+
+    <string-array name="locate20">
+        <item>大武鄉</item>
+        <item>成功鎮</item>
+        <item>臺東市</item>
+        <item>蘭嶼鄉</item>
+    </string-array>
+
+    <string-array name="locate21">
+        <item>列嶼鄉</item>
+        <item>金城鎮</item>
+    </string-array>
+
+    <string-array name="locate22">
+        <item>南竿鄉</item>
+    </string-array>
+</resources>

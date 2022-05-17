@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.choose_clothes">
+
+    <FrameLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/chooserec"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/notoseriftc_black"
+            android:text="@string/choose"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="start|center_vertical"
+            android:background="@drawable/bluebutselect"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/confirm"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="@drawable/bluebutselect"
+            android:src="@drawable/right" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#EBF1F4"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/notoseriftc_black"
+            android:text="@string/top"
+            android:textColor="@color/chooserec"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top1"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top2"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="140dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top3"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top4"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top5"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="200dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top6"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top7"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notoseriftc_black"
+                    android:text="@string/top8"
+                    android:button="@drawable/checkboxstyle"
+                    android:buttonTint="#FF37434F"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/choosetextcolor"
+                    android:textSize="22dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="260dp">
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/top9"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/top10"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/top11"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/notoseriftc_black"
+            android:text="@string/bottom"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/chooserec"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="85dp">
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/bottom1"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/bottom2"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/bottom3"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="145dp">
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/bottom4"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#EBF1F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/notoseriftc_black"
+            android:text="@string/acc"
+            android:textColor="@color/chooserec"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/acc1"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/acc2"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkboxstyle"
+                android:buttonTint="#FF37434F"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/notoseriftc_black"
+                android:text="@string/acc3"
+                android:textColor="@color/choosetextcolor"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

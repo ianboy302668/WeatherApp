@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDeleteNoteContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/delete_popup_rec">
+
+        <!--<TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notoseriftc_black"
+            android:includeFontPadding="false"
+            android:text="Delete Note"
+            android:textColor="@color/colorTextHint"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageDeleteNote" />-->
+
+        <TextView
+            android:id="@+id/textDeleteMassage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/notoseriftc_black"
+            android:includeFontPadding="false"
+            android:text="確定要刪除照片嗎"
+            android:textColor="@color/choosetextcolor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textDleteNote"
+            android:layout_width="96dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="200dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/notoseriftc_black"
+            android:includeFontPadding="false"
+            android:text="確定刪除"
+            android:textAllCaps="true"
+            android:textColor="@color/darkred"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/notoseriftc_black"
+            android:includeFontPadding="false"
+            android:text="取消"
+            android:textAllCaps="true"
+            android:textColor="@color/choosetextcolor"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

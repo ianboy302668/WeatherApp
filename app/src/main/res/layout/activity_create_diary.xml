@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.create_diary">
+
+    <FrameLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/chooserec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/notoseriftc_black"
+            android:text="@string/create"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/tolastpage"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bluebutselect"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/imageSave"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bluebutselect"
+            android:src="@drawable/ic_save"
+            app:tint="@color/white" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toTopOf="@+id/end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar"
+        app:layout_constraintVertical_bias="0.518">
+
+
+        <ImageView
+            android:id="@+id/imageNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_2ssp"
+            android:layout_weight="5"
+            android:contentDescription="@string/app_name" />
+        <TextView
+            android:id="@+id/textDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_2ssp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/notoseriftc_black"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Sunday, 09 January 2022 20:23 PM"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:background="@color/chooserec"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_1sdp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layoutDeleteNote"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/delete"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bluebutselect"
+                android:src="@drawable/trash" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/addphoto"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                app:tint="@color/white"
+                android:background="@drawable/bluebutselect"
+                android:src="@drawable/add" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
