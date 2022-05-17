@@ -26,10 +26,12 @@ d. 系統特色
 ## 使用教學
 * 穿衣建議
   1.首頁點選 _穿搭建議_ 鈕
-  <img src="picture/UI/advice-guide.png" alt="home" width="50%"/>
+  
+  <img src="picture/UI/advice-guide.png" alt="home" width="360" hight="720"/>
   
   2.選擇當日穿著
-  <img src="picture/UI/advice1.png" alt="advice1" width="50%"/>
+  
+  <img src="picture/UI/advice1.png" alt="advice1" width="50%" hight="720"/>
   
   3.結果顯示
   ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice2.png)
