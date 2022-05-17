@@ -35,19 +35,63 @@ d. 系統特色
   <img src="picture/UI/advice1.png" alt="advice1" width="240" hight="480"/>
   
   3.結果顯示
+  
   <img src="picture/UI/advice2.png " alt="advice1" width="240" hight="480"/>
   
 * 穿搭日記
+  
   - 新增日記
     1.點擊新增鈕
-    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/add-journal-guide1.png)
+    
+    <img src="picture/UI/add-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+   
     2.點選欲新增之圖片
-    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/edit-journal-guide2.png)
+   
+    <img src="picture/UI/edit-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    
     3.點選**右上角**可回到日記瀏覽頁面
-    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/add-journal-guide.png)
+    
+    <img src="picture/UI/add-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    
     4.日記瀏覽頁面
-    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/journal4.png)
+    
+    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+    
   - 刪除日記
+    
+    1.點選欲刪除之日記
+    
+    <img src="picture/UI/del-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+    
+    2.點擊**左下角**刪除鈕
+    
+    <img src="picture/UI/add-journal-guide2.png " alt="advice1" width="240" hight="480"/>  
+    
+    3.如確定要刪除，則點擊確認
+    
+    <img src="picture/UI/add-journal-guide3.png " alt="advice1" width="240" hight="480"/>
+    
+    4.顯示已刪除之畫面
+  
+    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+  
   - 編輯日記
+    
+    1.至欲編輯之日記頁面中，點擊**右下角**編輯鈕
+    
+    <img src="picture/UI/edit-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+    
+    2.進入圖庫挑選新照片
+    
+    <img src="picture/UI/edit-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    
+    3.點擊**右上角**儲存鈕
+    
+    <img src="picture/UI/edit-journal-guide3.png " alt="advice1" width="240" hight="480"/>
+    
+    4.回到日記頁面
+
+    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+
 ## App 下載
 ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
