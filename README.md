@@ -24,7 +24,7 @@ d. 系統特色
   藉由爬取政府提供的 API，我們能夠得知更加即時的天氣狀況資料，其中我們可以從當下天氣和最低最高溫度得知該如何給予使用者穿搭層面的建議。
 
 ## 使用教學
-* 穿衣建議
+### 穿衣建議
 
   1.首頁點選 _穿搭建議_ 鈕
   
@@ -36,62 +36,63 @@ d. 系統特色
   
   3.結果顯示
   
-  <img src="picture/UI/advice2.png " alt="advice1" width="240" hight="480"/>
+  <img src="picture/UI/advice2.png " alt="advice2" width="240" hight="480"/>
   
-* 穿搭日記
+### 穿搭日記
   
   - 新增日記
+  
     1.點擊新增鈕
     
-    <img src="picture/UI/add-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/add-journal-guide1.png " alt="add-guide1" width="240" hight="480"/>
    
     2.點選欲新增之圖片
    
-    <img src="picture/UI/edit-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide2.png " alt="add-guide2" width="240" hight="480"/>
     
     3.點選**右上角**可回到日記瀏覽頁面
     
-    <img src="picture/UI/add-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/add-journal-guide2.png " alt="add-guide3" width="240" hight="480"/>
     
     4.日記瀏覽頁面
     
-    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/journal4.png " alt="add-guide4" width="240" hight="480"/>
     
   - 刪除日記
     
     1.點選欲刪除之日記
     
-    <img src="picture/UI/del-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/del-journal-guide1.png " alt="del-guide1" width="240" hight="480"/>
     
     2.點擊**左下角**刪除鈕
     
-    <img src="picture/UI/add-journal-guide2.png " alt="advice1" width="240" hight="480"/>  
+    <img src="picture/UI/add-journal-guide2.png " alt="del-guide2" width="240" hight="480"/>  
     
     3.如確定要刪除，則點擊確認
     
-    <img src="picture/UI/add-journal-guide3.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/add-journal-guide3.png " alt="del-guide3" width="240" hight="480"/>
     
     4.顯示已刪除之畫面
   
-    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/journal4.png " alt="del-guide4" width="240" hight="480"/>
   
   - 編輯日記
     
     1.至欲編輯之日記頁面中，點擊**右下角**編輯鈕
     
-    <img src="picture/UI/edit-journal-guide1.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide1.png " alt="edit-guide1" width="240" hight="480"/>
     
     2.進入圖庫挑選新照片
     
-    <img src="picture/UI/edit-journal-guide2.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide2.png " alt="edit-guide2" width="240" hight="480"/>
     
     3.點擊**右上角**儲存鈕
     
-    <img src="picture/UI/edit-journal-guide3.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide3.png " alt="edit-guide3" width="240" hight="480"/>
     
     4.回到日記頁面
 
-    <img src="picture/UI/journal4.png " alt="advice1" width="240" hight="480"/>
+    <img src="picture/UI/journal4.png " alt="edit-guide4" width="240" hight="480"/>
 
 ## App 下載
 ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
