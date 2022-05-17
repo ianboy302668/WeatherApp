@@ -23,5 +23,25 @@ d. 系統特色
  
   藉由爬取政府提供的 API，我們能夠得知更加即時的天氣狀況資料，其中我們可以從當下天氣和最低最高溫度得知該如何給予使用者穿搭層面的建議。
 
+##使用教學
+* 穿衣建議
+  1.首頁點選 _穿搭建議_ 鈕
+  ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice-guide.png)
+  2.選擇當日穿著
+  ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice1.png)
+  3.結果顯示
+  ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice2.png)
+* 穿搭日記
+  - 新增日記
+    1.點擊新增鈕
+    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/add-journal-guide1.png)
+    2.點選欲新增之圖片
+    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/edit-journal-guide2.png)
+    3.點選**右上角**可回到日記瀏覽頁面
+    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/add-journal-guide.png)
+    4.日記瀏覽頁面
+    ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/journal4.png)
+  - 刪除日記
+  - 編輯日記
 ## App 下載
-![image](https://github.com/ianboy302668/WeatherApp/blob/main/APP.png)
+![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
