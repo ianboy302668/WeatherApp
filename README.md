@@ -28,14 +28,15 @@ d. 系統特色
 
   1.首頁點選 _穿搭建議_ 鈕
   
-  <img src="picture/UI/advice-guide.png" alt="home" width="360" hight="720"/>
+  <img src="picture/UI/advice-guide.png" alt="home" width="240" hight="480"/>
   
   2.選擇當日穿著
   
-  <img src="picture/UI/advice1.png" alt="advice1" width="50%" hight="720"/>
+  <img src="picture/UI/advice1.png" alt="advice1" width="240" hight="480"/>
   
   3.結果顯示
-  ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/UI/advice2.png = 360x720)
+  <img src="picture/UI/advice2.png " alt="advice1" width="240" hight="480"/>
+  
 * 穿搭日記
   - 新增日記
     1.點擊新增鈕
