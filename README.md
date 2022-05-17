@@ -1,7 +1,7 @@
 # WeatherApp
 此軟體針對使用者原本預想的穿著和天氣溫度做結合，給予使用者能 夠修正自己穿搭的建議，避免出門後發現今日穿著和天氣不符合的狀況。
 
-## 系統簡介 
+# 系統簡介 
 a. 應用程式名稱：超神天氣穿搭
 b. 動機 
     待在室內的我們常常不知道戶外實際的溫度，如果起床後或睡前沒有
@@ -22,8 +22,12 @@ d. 系統特色
 * 氣象預報/描述 
  
   藉由爬取政府提供的 API，我們能夠得知更加即時的天氣狀況資料，其中我們可以從當下天氣和最低最高溫度得知該如何給予使用者穿搭層面的建議。
+  
+## App 下載
+![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
 
-## 使用教學
+# 使用教學
+
 ### 穿衣建議
 
   1.首頁點選 _穿搭建議_ 鈕
@@ -94,5 +98,4 @@ d. 系統特色
 
     <img src="picture/UI/journal4.jpg " alt="edit-guide4" width="240" hight="480"/>
 
-## App 下載
-![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
+
