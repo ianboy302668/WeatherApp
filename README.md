@@ -48,7 +48,7 @@ d. 系統特色
    
     2.點選欲新增之圖片
    
-    <img src="picture/UI/edit-journal-guide2.png " alt="add-guide2" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide2.jpg " alt="add-guide2" width="240" hight="480"/>
     
     3.點選**右上角**可回到日記瀏覽頁面
     
@@ -56,7 +56,7 @@ d. 系統特色
     
     4.日記瀏覽頁面
     
-    <img src="picture/UI/journal4.png " alt="add-guide4" width="240" hight="480"/>
+    <img src="picture/UI/journal4.jpg " alt="add-guide4" width="240" hight="480"/>
     
   - 刪除日記
     
@@ -66,15 +66,15 @@ d. 系統特色
     
     2.點擊**左下角**刪除鈕
     
-    <img src="picture/UI/add-journal-guide2.png " alt="del-guide2" width="240" hight="480"/>  
+    <img src="picture/UI/del-journal-guide2.png " alt="del-guide2" width="240" hight="480"/>  
     
     3.如確定要刪除，則點擊確認
     
-    <img src="picture/UI/add-journal-guide3.png " alt="del-guide3" width="240" hight="480"/>
+    <img src="picture/UI/del-journal-guide3.png " alt="del-guide3" width="240" hight="480"/>
     
     4.顯示已刪除之畫面
   
-    <img src="picture/UI/journal4.png " alt="del-guide4" width="240" hight="480"/>
+    <img src="picture/UI/journal4.jpg " alt="del-guide4" width="240" hight="480"/>
   
   - 編輯日記
     
@@ -84,7 +84,7 @@ d. 系統特色
     
     2.進入圖庫挑選新照片
     
-    <img src="picture/UI/edit-journal-guide2.png " alt="edit-guide2" width="240" hight="480"/>
+    <img src="picture/UI/edit-journal-guide2.jpg " alt="edit-guide2" width="240" hight="480"/>
     
     3.點擊**右上角**儲存鈕
     
@@ -92,7 +92,7 @@ d. 系統特色
     
     4.回到日記頁面
 
-    <img src="picture/UI/journal4.png " alt="edit-guide4" width="240" hight="480"/>
+    <img src="picture/UI/journal4.jpg " alt="edit-guide4" width="240" hight="480"/>
 
 ## App 下載
 ![image](https://github.com/ianboy302668/WeatherApp/blob/main/picture/app-download.png)
